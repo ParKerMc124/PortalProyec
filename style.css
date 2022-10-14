@@ -1,0 +1,269 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #020403;
+}
+.Nav {
+    display: flex;
+    gap: 50px;
+    padding-left: 45%;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.face {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+.name {
+    color: #adadad;
+    text-align: center;
+    font-size: 50px;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 100px;
+    word-wrap: break-word;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.twitter {  
+    width: 80px;
+    height: 80px;
+    padding: 40px;
+}
+.instagram {  
+    width: 80px;
+    height: 80px;
+    padding: 40px;
+}
+.linkedin {  
+    width: 80px;
+    height: 80px;
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+}
+ .dogfight  {
+    color: #adadad;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 18px;
+    width: 1000px;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+}
+h3 {
+    color: #ffffff;
+    font-size: 45px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+    text-align: center;
+}
+.material {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 25px;
+    gap: 25px;
+    
+}
+.material>div>img {
+    background-color: #272222;
+    border-radius: 60%;
+    margin-top: auto;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px 13px #1f1c1c;
+}
+.materialtext {
+    display: grid;
+    color: white;
+    text-align: center;
+}
+.material>div>p {
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.NeedFix {
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+}
+.NeedFix2{
+    padding-left: 25px;
+}
+.NeedFix3 {
+    padding-left: 35px;
+}
+.NeedFix4 {
+    padding-left: 30px;
+}
+.imgs2 {
+    width: 55px;
+    height: 60px;
+}
+h4 {
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    padding-right: 50px;
+}
+.hh1, .hh2, .hh3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+.pp1, .pp2, .pp3 {
+    color: #adadad;
+    text-align: center;
+    padding: 0;
+    margin-right: 55px;
+}
+.hh2 {
+    margin-left: 18px;
+}
+.hh3 {
+    margin-left: -30px;
+}
+.pp1 {
+    margin-right: 66px;
+}
+.pp3 {
+    margin-right: 72px;
+}
+.ppp1, .ppp2, .ppp3 {
+    color: #adadad;
+    text-align: center;
+    margin: auto;
+    padding-right: 450px;
+
+}
+.pp1 {
+    margin-top: -30px;
+}
+.pp2{
+    margin-top: -43px;
+    
+}
+.pp3 {
+    margin-top: -43px;
+}
+.hh2 {
+    margin-top: 1px;
+}
+.ppp1 {
+    margin-bottom: 10px;
+    margin-top: -30px;
+    border-bottom:0.1px solid #413b3b85;
+    padding-bottom: 5px;
+}
+.hh3 {
+    margin-top: 1px;
+}
+.ppp2{
+    margin-bottom: 10px;
+    margin-top: -30px;
+    border-bottom:0.1px solid #413b3b85;
+    padding-bottom: 5px;
+}
+.ppp3 {
+    margin-bottom: 10px;
+    margin-top: -28px;
+}
+.portaF {
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    padding-right: 70px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.portaFDIV {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding-right: 60px;
+}
+.contact {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 5%;
+}
+.contacts {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    gap: 5%;    
+}
+.mail {
+    width: 15%;
+    box-shadow: 0 0 20px 13px #1f1c1c;
+    border-radius: 30px;
+}
+.phone {
+    width: 15%;
+    box-shadow: 0 0 20px 13px #1f1c1c;
+    border-radius: 30px;
+}
+.mailText {
+    font-size: 15px;
+    color: wheat;
+}
+.mailParraf {
+    font-size: 15px;
+    color: #adadad;
+}
+.phoneText {
+    font-size: 15px;
+    color: wheat;
+    margin-top: 5%;
+}
+.phoneParraf {
+    color: #adadad;
+    font-size: 15px;
+}
+.phoneZ {
+    width: 15%;
+}
+.mailZ {
+    width: 15%;
+}
